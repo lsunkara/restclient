@@ -11,11 +11,4 @@ class Photo {
     String url
     String thumbnailUrl
 
-    @Override
-    public String toString() {
-        return "Photo{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                '}';
-    }
 }
